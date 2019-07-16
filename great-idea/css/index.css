@@ -63,4 +63,150 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+
+
+/* global */
+
+.container {
+	margin: 0 auto;
+}
+
+/* Nav */
+
+nav {
+	position: fixed;
+	width: 100vw;
+	text-align: center;
+	background: rgb(248, 232, 2);
+	padding: 0px 0 15px;
+}
+
+nav a {
+	margin: 30px;
+	color: gray;
+	text-decoration: none;
+	vertical-align: middle;
+}
+
+nav img {
+	justify-items: baseline;
+}
+
+nav a:hover {
+	color: red;
+}
+
+.logo-img {
+	display: inline-block;
+	background-image: url('../img/logo.png');
+	background-repeat: no-repeat;
+	width: 183px;
+	height: 60px;
+	margin: 0;
+	margin-top: 20px;
+}
+
+/* header */
+
+.header-content {
+	padding-top: 120px;
+	text-align: center;
+	width: 100%;
+}
+
+h1 {
+	font-size: 6rem;
+}
+
+button {
+	width: 200px;
+	background: transparent;
+	border: 1px solid #222;
+	text-transform: uppercase;
+	padding: 10px;
+	margin: 20px 0 0 40px;
+	outline: none;
+}
+
+button:hover {
+	background: #222;
+	color: #fff;
+	cursor: pointer;
+	font-weight: 700;
+	letter-spacing: 2px;
+	transition: font-weight 0.2s, letter-spacing 0.2s ease-in-out;
+}
+
+button:active {
+	background: yellow;
+	color: #444;
+}
+
+.header-section {
+	display: inline-block;
+	margin: 40px;
+}
+
+.header-img {
+	margin-bottom: -40px;
+	background-image: url('../img/header-img.png');
+	width: 379px;
+	height: 379px;
+}
+
+/* Main content section */
+
+.two-article {
+	width: 100%;
+	margin-top: 20px;
+}
+
+.top-articles {
+	display: inline-block;
+	width: 45%;
+	margin: 0 10px;
+}
+
+.middle-img {
+	background-image: url('../img/mid-page-accent.jpg');
+	/* background-repeat: no-repeat; */
+	width: 100vw;
+	height: 183px;
+	margin: 30px 0;
+}
+
+.three-article {
+	width: 100%;
+	margin: 0 10px;
+	margin-bottom: 40px;
+}
+
+.bottom-articles {
+	display: inline-block;
+	width: 32%;
+	margin: 5px;
+}
+
+/* Contact */
+
+.contact {
+	margin:  20px 10px 0;
+}
+
+.contact a {
+	text-decoration: none;
+	color: black;
+}
+
+.contact a:hover {
+	text-decoration: underline;
+	color: gray;
+}
+
+/* Footer */
+
+footer {
+	margin: 80px;
+	text-align: center;
+}

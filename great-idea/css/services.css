@@ -102,6 +102,58 @@ header img {
   width: 100%;
 }
 
+header section {
+	margin: 25px 10px;
+}
+
+section {
+	display: inline-flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+section	article {
+	border: 1px solid black;
+	padding: 10px;
+	background: lightgray;
+	width: 47%;
+	margin: 3px;
+}
+
+button {
+	margin: 40px 0 30px;
+	width: 120px;
+	padding: 12px;
+	background: white;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+
+.facts {
+	/* display: flex; */
+	width: 100%;
+}
+
+.facts section {
+	display: flex;
+	width: 50%;
+}
+
+#some-facts {
+	justify-content: left;
+}
+
+#some-facts li {
+	margin: 10px 20px;
+	list-style-type: disc;
+}
+
+#facts-image {
+	width: 400px;
+}
+
+
 
 
 

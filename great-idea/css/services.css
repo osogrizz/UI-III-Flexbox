@@ -129,6 +129,10 @@ button {
 	font-weight: 700;
 }
 
+button:hover {
+	cursor: pointer;
+}
+
 
 .facts {
 	/* display: flex; */

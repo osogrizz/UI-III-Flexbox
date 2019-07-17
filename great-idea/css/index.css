@@ -69,7 +69,7 @@ h1, h2, h3, h4, h5 {
 /* global */
 
 .container {
-	margin: 0 auto;
+	/* margin: 0 auto; */
 }
 
 /* Nav */
@@ -79,18 +79,15 @@ nav {
 	width: 100vw;
 	text-align: center;
 	background: rgb(248, 232, 2);
-	padding: 0px 0 15px;
+	padding: 0px 0 2px;
+	display: flex;
+	justify-content: space-evenly;
 }
 
 nav a {
 	margin: 30px;
 	color: gray;
 	text-decoration: none;
-	vertical-align: middle;
-}
-
-nav img {
-	justify-items: baseline;
 }
 
 nav a:hover {
@@ -98,7 +95,8 @@ nav a:hover {
 }
 
 .logo-img {
-	display: inline-block;
+	/* replaces inline-block */
+	display: inline-flex;
 	background-image: url('../img/logo.png');
 	background-repeat: no-repeat;
 	width: 183px;
@@ -113,6 +111,8 @@ nav a:hover {
 	padding-top: 120px;
 	text-align: center;
 	width: 100%;
+	display: flex;
+	justify-content: center;
 }
 
 h1 {
@@ -144,7 +144,6 @@ button:active {
 }
 
 .header-section {
-	display: inline-block;
 	margin: 40px;
 }
 
@@ -158,12 +157,13 @@ button:active {
 /* Main content section */
 
 .two-article {
+	display: flex;
+	justify-content: center;
 	width: 100%;
 	margin-top: 20px;
 }
 
 .top-articles {
-	display: inline-block;
 	width: 45%;
 	margin: 0 10px;
 }
@@ -180,10 +180,11 @@ button:active {
 	width: 100%;
 	margin: 0 10px;
 	margin-bottom: 40px;
+	display: flex;
+	justify-content: center;
 }
 
 .bottom-articles {
-	display: inline-block;
 	width: 32%;
 	margin: 5px;
 }

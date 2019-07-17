@@ -1,0 +1,235 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+		height: 100%;
+		font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+		font-family: 'Comfortaa', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+
+
+/* global */
+
+.container {
+	/* max-width: 1240px; */
+	margin: 0 auto;
+}
+
+/* Nav */
+
+nav {
+	position: fixed;
+	width: 100vw;
+	text-align: center;
+	background: rgb(248, 232, 2);
+	padding: 10px 0 15px;
+}
+
+nav a {
+	margin: 30px;
+	color: gray;
+	text-decoration: none;
+	vertical-align: middle;
+}
+
+nav img {
+	justify-items: baseline;
+}
+
+nav a:hover {
+	color: red;
+}
+
+.logo-img {
+	display: inline-block;
+	background-image: url('../img/logo.png');
+	background-repeat: no-repeat;
+	width: 183px;
+	height: 60px;
+	margin: 0;
+	margin-top: 20px;
+}
+
+/* Form */
+
+form {
+  width: 960px;
+  padding-top: 120px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  text-transform: capitalize;
+	margin: 10px;
+	width: 372px;
+}
+
+textarea {
+  padding: 10px;
+  font-size: 16px;
+  text-transform: capitalize;
+	margin: 10px;
+	width: 80%;
+}
+
+
+
+/* header */
+
+header {
+	text-align: center;
+	width: 100%;
+}
+
+h1 {
+	font-size: 6rem;
+	text-align: center;
+	padding-top: 140px;
+}
+
+button {
+	width: 200px;
+	background: transparent;
+	border: 1px solid #222;
+	text-transform: uppercase;
+	padding: 10px;
+	margin: 20px 0 0 40px;
+	outline: none;
+}
+
+button:hover {
+	background: #222;
+	color: #fff;
+	cursor: pointer;
+	font-weight: 700;
+	letter-spacing: 2px;
+	transition: font-weight 0.2s, letter-spacing 0.2s ease-in-out;
+}
+
+button:active {
+	background: yellow;
+	color: #444;
+}
+
+.header-section {
+	display: inline-block;
+	margin: 40px;
+}
+
+/* Main content section */
+
+.two-article {
+	width: 100%;
+	margin-top: 20px;
+}
+
+.top-articles {
+	display: inline-block;
+	width: 45%;
+	margin: 0 10px;
+}
+
+.top-articles::last-child {
+	float: right;
+}
+
+/* .middle-img {
+	width: 100%;
+	margin: 40px auto;
+} */
+
+.three-article {
+	width: 100%;
+	margin: 0 10px;
+	margin-bottom: 40px;
+}
+
+.bottom-articles {
+	display: inline-block;
+	width: 400px;
+	margin: 5px;
+}
+
+/* Contact */
+
+.contact {
+	margin:  20px 10px 0;
+}
+
+.contact a {
+	text-decoration: none;
+	color: black;
+}
+
+.contact a:hover {
+	text-decoration: underline;
+	color: gray;
+}
+
+/* Footer */
+
+footer {
+	margin: 80px;
+	text-align: center;
+}
